@@ -17,10 +17,9 @@ function reformat(str){
                 return letter.toLowerCase();
             }
         }).join("");
-        console.log(word);
+    //console.log(word);
        if(index === 0){
             myStr = myStr + word.charAt(0).toUpperCase() + word.slice(1) + " ";
-            
         }else{
             myStr = myStr + word.toLowerCase() + " ";
         }
